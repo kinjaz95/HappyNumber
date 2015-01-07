@@ -1,21 +1,22 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
+using HappyNumber;
 
 namespace HappyNumberTest
 {
     [TestClass]
     public class HappyNumberTest
     {
-        private HappyNumber _happyNumber;
+        private Test _happyNumber;
 
         public HappyNumberTest()
         {
-            _happyNumber = new HappyNumber();
+            _happyNumber = new Test();
         }
         
         [TestMethod]
-        public void SplitNumber_SplitNumberAndSquareAndSum_Number()
+        public void SplitNumberTest_SplitNumberAndSquareAndSum_Number()
         {
             //Arrange: Given a number
             int number = 52;
@@ -28,7 +29,7 @@ namespace HappyNumberTest
         }
 
         [TestMethod]
-        public void ISNumberInList_ISNumberInList_Bool()
+        public void ISNumberInListTest_ISNumberInList_Bool()
         {
             //Arrange:
             int number = 52;
@@ -43,14 +44,14 @@ namespace HappyNumberTest
 
         [TestMethod]
 
-        public void IsCrossSumEqualsOne_CheckIFCrossSumEqualsOne_bool()
+        public void IsCrossSumEqualsOneTest_CheckIFCrossSumEqualsOne_bool()
         {
             //Arrange:
             int number = 10;
 
             //Act
-
             var isCrossSumEqualsOne = _happyNumber.IsCrossSumEqualsOne(number);
+
             //Assert
             Assert.AreEqual(true, isCrossSumEqualsOne);
         }

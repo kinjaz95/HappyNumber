@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace HappyNumber
 {
-    public class HappyNumber
+    public class Test
     {
         public int SplitNumber(int number)
         {

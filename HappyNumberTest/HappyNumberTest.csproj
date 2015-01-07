@@ -53,6 +53,12 @@
     <Compile Include="HappyNumberTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HappyNumber\HappyNumber.csproj">
+      <Project>{6fdbabbd-c94f-4e51-94e8-c7c45d10cccc}</Project>
+      <Name>HappyNumber</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
