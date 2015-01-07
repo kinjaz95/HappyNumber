@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyNumber", "HappyNumber\HappyNumber.csproj", "{6FDBABBD-C94F-4E51-94E8-C7C45D10CCCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyNumberTest", "HappyNumberTest\HappyNumberTest.csproj", "{6944D9B2-BE34-498F-A2C9-444709C75309}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FDBABBD-C94F-4E51-94E8-C7C45D10CCCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDBABBD-C94F-4E51-94E8-C7C45D10CCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDBABBD-C94F-4E51-94E8-C7C45D10CCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDBABBD-C94F-4E51-94E8-C7C45D10CCCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6944D9B2-BE34-498F-A2C9-444709C75309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6944D9B2-BE34-498F-A2C9-444709C75309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6944D9B2-BE34-498F-A2C9-444709C75309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6944D9B2-BE34-498F-A2C9-444709C75309}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
